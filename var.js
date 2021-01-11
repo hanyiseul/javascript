@@ -20,3 +20,6 @@ var test1 = new MyClass();
  // 위 과정을 통해 Shirt1이란 인스턴스가 생성됨
 alert("test1.name ="+test1.name);
 alert("test1.userName ="+test1.userName);
+
+
+commit test
