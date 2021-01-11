@@ -22,4 +22,8 @@ alert("test1.name ="+test1.name);
 alert("test1.userName ="+test1.userName);
 
 
-commit test
+// 연산자와 함께 사용하는 경우 
+var num1 = 10;
+var num2 = 20;
+var result = num1+num2;
+alert(result);
