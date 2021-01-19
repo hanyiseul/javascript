@@ -89,18 +89,18 @@ if(a==1&&b==0)
 // }
 
 // 박스 이동시키기
-$(document).ready(function(){
-	$(".btn").click(function(){
-		var x = window.prompt("left");
-		if(x>=0){
-			$('.box').animate({
-				left:x+"px"
-			},1000);
-		}else{
-			alert("x");
-		}
-	});
-});
+// $(document).ready(function(){
+// 	$(".btn").click(function(){
+// 		var x = window.prompt("left");
+// 		if(x>=0){
+// 			$('.box').animate({
+// 				left:x+"px"
+// 			},1000);
+// 		}else{
+// 			alert("x");
+// 		}
+// 	});
+// });
 
 //교재정답
 // $(document).ready(function(){
@@ -168,6 +168,62 @@ $(document).ready(function(){
 // }
 
 //조건부 연산자
-var value = window.prompt("수입력");
-value=parseInt(value);
-(value%2==0)?alert("참"):alert("거짓");
+// var value = window.prompt("수입력");
+// value=parseInt(value);
+// (value%2==0)?alert("참"):alert("거짓");
+
+
+// var a = window.prompt("수입력");
+// a=parseInt(a);
+// if(a=="1"){
+// 	alert("냉장고")
+// }else if(a=="2"){
+// 	alert("세탁기")
+// }else if(a=="3"){
+// 	alert("tv");
+// }else{
+// 	alert("실패");
+// }
+
+// var value = window.prompt("입력");
+// if(value=="오른쪽" || value=="왼쪽" || value=="가운데"){
+// 	alert(value+"클릭");
+// }else{
+// 	alert("???");
+// }1
+
+// $(document).ready(function(){
+// 	$('.btn').click(function(){
+// 		var x = window.prompt("가로");
+// 		var y = window.prompt("세로");
+// 		x=parseInt(x);
+// 		y=parseInt(y);
+// 		if(x>=0 && x<=500 && y>=0 && y<=300){
+// 			$('.box').animate({
+// 				left:x,
+// 				top:y
+// 			},1000);
+// 			$('.wrap').css({"width":x,"height":2*y});
+// 		}else{
+// 			alert("다시입력");
+// 		}
+// 	});
+// });
+
+// $(document).ready(function(){
+// 	var dCheck = false;
+// 	$('.dCheckbox').click(function(){
+// 		dCheck = !dCheck;
+// 		if(dCheck==true){
+// 			$('.checkbox').addClass("check");
+// 		}else{
+// 			$('.checkbox').removeClass("check");
+// 		}
+// 	});
+// });
+
+// $(document).ready(function(){
+// 	$('.dCheckbox').click(function(){
+// 		$('.checkbox').toggleClass("check");
+// 	});
+// });
