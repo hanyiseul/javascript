@@ -156,13 +156,18 @@ $(document).ready(function(){
 // 	alert("pw실패")
 // }
 
-var a = window.prompt("연봉");
-if(a<=100){
-	alert("퇴사");
-}else if(a<=200){
-	alert("이직준비");
-}else if(a<=500){
-	alert("존버");
-}else if(a>=1000){
-	alert("내회사");
-}
+// var a = window.prompt("연봉");
+// if(a<=100){
+// 	alert("퇴사");
+// }else if(a<=200){
+// 	alert("이직준비");
+// }else if(a<=500){
+// 	alert("존버");
+// }else if(a>=1000){
+// 	alert("내회사");
+// }
+
+//조건부 연산자
+var value = window.prompt("수입력");
+value=parseInt(value);
+(value%2==0)?alert("참"):alert("거짓");
