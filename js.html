@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <script src="if.js"></script>
+    <script src="switch.js"></script>
 </head>
 <body>
     <script>
@@ -35,8 +35,8 @@
         <li>menu2-7</li>
     </ul>
 -->
-    <div class="wrap">
-        <span class="box" style="border:1px solid red; width:20px; height:20px; display:inline-block; position:relative;"></span>
+    <div class="wrap" style="width:500px; height:500px; border:1px solid black; position:relative;">
+        <span class="box" style="border:1px solid red; width:20px; height:20px; display:inline-block; position:absloute; left:50px; top:200px;"></span>
     </div>
 
     <div class="nav">
@@ -54,7 +54,7 @@
         </div>
     </div>
     <style>
-        .dCheckbox{position:relative; left:100px; top:100px;}
+        .dCheckbox{position:relative;}
         .dCheckbox .checkbox{width:20px; height:20px; float:left; border-radius:50%; border:1px solid black;}
         .dCheckbox .checkbox.check{background:red;}
     </style>
