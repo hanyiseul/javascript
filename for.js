@@ -76,3 +76,32 @@ for(i=0; i<data.length; i++){
 	result+=data[i];
 }
 document.write(result);
+
+//박스를 가로배열
+//  $(document).ready(function(){
+// 	$('.btnClick').click(function(){
+// 		var box = $('.box');
+// 		for(var i=0; i<box.length; i++){
+// 			var x =i*150;
+// 			box.eq(i).animate({
+// 				left:x,
+// 				top:0
+// 			});
+// 		}
+// 	});
+//  });
+
+ //박스를 가로세로 배열
+  $(document).ready(function(){
+	$('.btnClick').click(function(){
+		var box = $('.box');
+		for(var i=0; i<box.length; i++){
+			var x =(i%3)*150;
+			var y =(parseInt(i/3))*150;
+			box.eq(i).animate({
+				left:x,
+				top:y
+			});
+		}
+	});
+ });
