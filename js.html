@@ -84,5 +84,52 @@
         .box{position:absolute; left:0; top:0; width:120px; height:120px; border:1px solid red;}
     </style>
     <!-- //function -->
+
+    <ul class="tab-menu" id="tabMenu">
+        <li class="menuitem1">google1</li>
+        <li class="menuitem2">google2</li>
+        <li class="menuitem3">google3</li>
+        <li class="menuitem4">google4</li>
+        <li class="menuitem5">google5</li>
+        <li class="menuitem6">google6</li>
+    </ul>
+    <ul class="tab-menu" id="tabMenu2">
+        <li class="menuitem1">google1</li>
+        <li class="menuitem2">google2</li>
+        <li class="menuitem3">google3</li>
+        <li class="menuitem4">google4</li>
+        <li class="menuitem5">google5</li>
+        <li class="menuitem6">google6</li>
+    </ul>
+
+    <style>
+        .tab-menu {
+        list-style: none;
+        height:80px;}
+        .tab-menu li {
+        width :99px;
+        height:40px;
+        background-position-y:0;
+        text-indent: -1000px;
+        overflow: hidden;
+        display: inline-block; 
+        float:left;}
+        .tab-menu li:hover {
+        background-color:orange;}
+        .tab-menu li.select {
+        height:120px !important;}
+        .tab-menu li.menuitem1 {
+        background-color:#000; width:100px; height:100px;}
+        .tab-menu li.menuitem2 {
+        background-color:red; width:100px; height:100px;}
+        .tab-menu li.menuitem3 {
+        background-color:blue; width:100px; height:100px;}
+        .tab-menu li.menuitem4 {
+            background-color:yellow; width:100px; height:100px;}
+        .tab-menu li.menuitem5 {
+            background-color:green; width:100px; height:100px;}
+        .tab-menu li.menuitem6 {
+            background-color:pink; width:100px; height:100px;}
+    </style>
 </body>
 </html>
